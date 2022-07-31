@@ -122,12 +122,15 @@ a:hover{
 }
 .header ul{
 	display: flex;
-	margin-right: -32px;
+	
 	
 }
 .header ul li{
 	
 	padding: 0 32px;
+}
+.header ul :last-child{
+	padding-right: 0;
 }
 
 @media (max-width: 768px){
@@ -230,10 +233,12 @@ a:hover{
 }
 .icon ul{
 	display: flex;
-	margin-right: -16px;
 }
 .icon ul li{
 	padding: 0 16px;
+}
+.icon ul:last-child{
+	padding-right: 0;
 }
 .icon img{
 	width: 48px;
