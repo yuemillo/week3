@@ -138,10 +138,13 @@ a:hover{
 	max-width: 696px;
 	}
 	.header ul{
+		
 		flex-wrap: wrap;
 		justify-content: flex-end;
 	}
 }
+
+
 
 @media (max-width: 375px){
 	.container{
@@ -201,6 +204,8 @@ a:hover{
 		margin-top: 80px;
 	}
 }
+
+
 @media (max-width: 375px){
 	.container{
 		max-width: 375px;
@@ -237,9 +242,10 @@ a:hover{
 .icon ul li{
 	padding: 0 16px;
 }
-.icon ul:last-child{
-	padding-right: 0;
+.icon ul :last-child{
+	padding-right: 0px;
 }
+
 .icon img{
 	width: 48px;
 }
@@ -257,6 +263,8 @@ a:hover{
 	font-size: 36px;
 	margin-left: 22px;
 }
+
+
 .copyright{
 	border-top: 1px solid #fff;
 	display: flex;
@@ -278,15 +286,15 @@ a:hover{
 	.icon img{
 		width: 40px;
 	}
-	.icon ul{
-		margin-right: -8px;
-	}
+	
 	.icon ul li{
-		margin: 0 8px;
-		height: 24px;
+		padding: 0 8px;
 	}
 
+	.icon ul:last-child{
+		padding-right: 0;
 	}
+	
 	
 
 @media (max-width: 672px){
