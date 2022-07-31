@@ -123,9 +123,11 @@ a:hover{
 .header ul{
 	display: flex;
 	margin-right: -32px;
+	
 }
 .header ul li{
-	margin: 0 32px;
+	
+	padding: 0 32px;
 }
 
 @media (max-width: 768px){
@@ -231,7 +233,7 @@ a:hover{
 	margin-right: -16px;
 }
 .icon ul li{
-	margin: 0 16px;
+	padding: 0 16px;
 }
 .icon img{
 	width: 48px;
